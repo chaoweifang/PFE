@@ -1,4 +1,4 @@
-#Piecewise Flat Embedding for Image Segmentation
+# Piecewise Flat Embedding for Image Segmentation
 
 
 ![](https://ws4.sinaimg.cn/large/006tNc79gy1fn3p0c3wd6j31hw0iadro.jpg)
@@ -9,9 +9,11 @@ Some examples of embedding results:
 ![](https://ws3.sinaimg.cn/large/006tNc79gy1fn3p73b8cfj30s50f9tl2.jpg)
 
 ### Prerequisites
+
 A boundary detector is required to generate boundary probability map which is used to build the affinity matrix in PFE. There are piles of choices for boundary detection such as [HED](https://github.com/s9xie/hed), [DB](http://www0.cs.ucl.ac.uk/staff/I.Kokkinos/deepboundaries.html) and [COB](http://www.vision.ee.ethz.ch/~cvlsegmentation/cob/).
 
 ### Usage
+
 1. run_im2ucm_all.m: generate and save segmentation results for all images the chosen dataset;
 2. run_bench.m: evaluate segmentation results using boundary (Fb) and segmenation (Fop, Covering, PRI and VI) metrics;
 3. different versions of PFE can be set in get_parameters.m.
