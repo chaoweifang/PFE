@@ -19,14 +19,14 @@ A boundary detector is required to generate boundary probability map which is us
 3. different versions of PFE can be set in get_parameters.m.
 
 
-###Precomputed Results
+### Precomputed Results
 
 Contour driven segmentations of methods integrating swPFE0.8 precomputed on [Standford Background Dataset(SBD)](http://dags.stanford.edu/projects/scenedataset.html), [MSRC](http://riemenschneider.hayko.at/vision/dataset/task.php?did=36), and testing subset of [BSDS500](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html) and [PASCALContext](http://www.cs.stanford.edu/~roozbeh/pascal-context/), can be downloaded in the following links. 
 
 1. Use COB as local bounadry: [BSDS500](https://drive.google.com/open?id=1gdMyp07kcR9OpbSSkEkV7MtpdP2qXrSL), [SBD](https://drive.google.com/open?id=1X1uJEfpeyboxOIwtXRsY-MGb6kDabTDw), [MSRC](https://drive.google.com/open?id=1C0j_658lJ_MGuqadPBM2AyRJKaD0iA0m), [PASCALContext](https://drive.google.com/open?id=19GasnZOi_hLW8INbV4WNqlZHtgvCVflp);
 2. Use DB as local boundary: [BSDS500](https://drive.google.com/open?id=16pwlZOmGFSTxzLqLneeDWK_Xowf4QTe_), [SBD](https://drive.google.com/open?id=1_acRQiucHu4qgstXnySoAO4h6IvutWKN), [MSRC](https://drive.google.com/open?id=1YoLhmOZ2rLZN9C2Sy2cW8Wbfx1IiH_VA), [PASCALContext](https://drive.google.com/open?id=1cGG_BMqXeAJY1B6b5UlXR9fpgrl2Lvp_).
 
-###Citation
+### Citation
 
 If you use this code, please citing the following papers:
 
