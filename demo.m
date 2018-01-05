@@ -1,4 +1,3 @@
-
 addpath('./pfe/');
 addpath('./external/suitesparse/');
 addpath('./external/bsr/')
@@ -7,6 +6,9 @@ addpath('./scripts')
 addpath('./external/structured_forest/')
 addpath('./lib')
 addpath('./extraImages/')
+
+clear;clc;
+
 %read image 
 img = imread('./tmp/97010.jpg');
 %load boundary

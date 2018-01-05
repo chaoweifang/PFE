@@ -1,4 +1,10 @@
-install
+addpath('./external/bsr/')
+addpath('./external/structured_forest/')
+addpath('./datasets/')
+addpath('./lib')
+
+clear clc
+
 database='VOCContext';
 gt_set='test';
 res_root = '/home2/cwfang/Results/';

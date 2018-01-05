@@ -1,9 +1,6 @@
-%install
 addpath('./pfe/');
 addpath('./external/suitesparse/');
 addpath('./external/bsr/')
-%addpath('./external/sfedges/')
-%addpath(genpath('./external/sfedges/toolbox-master'))
 addpath('./external/vlfeat/')
 addpath('./scripts')
 addpath('./external/structured_forest/')
