@@ -1,5 +1,6 @@
 addpath('./datasets')
 addpath(genpath('./external/seism_bench/'))
+
 database='VOCContext';
 dset='test';
 method = 'swPFE0.8';
