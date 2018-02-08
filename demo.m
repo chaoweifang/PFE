@@ -15,7 +15,8 @@ img = imread('./tmp/97010.jpg');
 load('./tmp/97010_db.mat')
 
 %obtain related parameters
-[param_ini,param_s,param_ucm]=get_parameters('s',0.8,'w', 'journal');
+p=0.8
+[param_ini,param_s,param_ucm]=get_parameters('s',p,'w', 'journal');
 
 %compute initialization, pfe, ucm
 [ucm2,~,vecs,~,t]= img2ucm(img,[],[],edg,param_s,param_ucm,param_ini);

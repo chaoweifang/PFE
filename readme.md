@@ -16,7 +16,7 @@ A boundary detector is required to generate boundary probability map which is us
 
 1. run_im2ucm_all.m: generate and save segmentation results for all images the chosen dataset;
 2. run_bench.m: evaluate segmentation results using boundary (Fb) and segmenation (Fop, Covering, PRI and VI) metrics;
-3. different versions of PFE can be set in get_parameters.m.
+3. different versions of PFE can be set in get_parameters.m. Set p=1 to use the L1-regularized PFE in demo.m.
 
 
 ### Precomputed Results
