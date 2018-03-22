@@ -11,7 +11,7 @@ Some examples of embedding results:
 ### Prerequisites
 
 1. A boundary detector is required to generate boundary probability map which is used to build the affinity matrix in PFE. There are piles of choices for boundary detection such as [HED](https://github.com/s9xie/hed), [DB](http://www0.cs.ucl.ac.uk/staff/I.Kokkinos/deepboundaries.html) and [COB](http://www.vision.ee.ethz.ch/~cvlsegmentation/cob/).
-2. The code has been tested in MATLAB R2014a and R2016b.
+2. The code has been tested with MATLAB R2014a and R2016b in Ubuntu.
 
 ### Usage
 
