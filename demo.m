@@ -15,7 +15,7 @@ img = imread('./tmp/97010.jpg');
 load('./tmp/97010_db.mat')
 
 %obtain related parameters
-p=0.8
+p=0.8;
 [param_ini,param_s,param_ucm]=get_parameters('s',p,'w', 'journal');
 
 %compute initialization, pfe, ucm
