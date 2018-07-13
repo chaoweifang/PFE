@@ -38,4 +38,11 @@ If you use this code, please citing the following papers:
   year={2015}
 }
 
+@article{fang2018piecewise,
+  title={Piecewise Flat Embedding for Image Segmentation},
+  author={Fang, Chaowei and Liao, Zicheng and Yu, Yizhou},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2018},
+  publisher={IEEE}
+}
 Enjoy!

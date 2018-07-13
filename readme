@@ -14,4 +14,23 @@ Contour driven segmentations of methods integrating swPFE0.8 precomputed on [Sta
 1. Use COB as local bounadry: [BSDS500](https://drive.google.com/open?id=1gdMyp07kcR9OpbSSkEkV7MtpdP2qXrSL), [SBD](https://drive.google.com/open?id=1X1uJEfpeyboxOIwtXRsY-MGb6kDabTDw), [MSRC](https://drive.google.com/open?id=1C0j_658lJ_MGuqadPBM2AyRJKaD0iA0m), [PASCALContext](https://drive.google.com/open?id=19GasnZOi_hLW8INbV4WNqlZHtgvCVflp);
 2. Use DB as local boundary: [BSDS500](https://drive.google.com/open?id=16pwlZOmGFSTxzLqLneeDWK_Xowf4QTe_), [SBD](https://drive.google.com/open?id=1_acRQiucHu4qgstXnySoAO4h6IvutWKN), [MSRC](https://drive.google.com/open?id=1YoLhmOZ2rLZN9C2Sy2cW8Wbfx1IiH_VA), [PASCALContext](https://drive.google.com/open?id=1cGG_BMqXeAJY1B6b5UlXR9fpgrl2Lvp_).
 
+### Citation
+
+If you use this code, please citing the following papers:
+
+@inproceedings{yu2015piecewise,title={Piecewise flat embedding for image segmentation},
+  author={Yu, Yizhou and Fang, Chaowei and Liao, Zicheng},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={1368--1376},
+  year={2015}
+}
+
+@article{fang2018piecewise,
+  title={Piecewise Flat Embedding for Image Segmentation},
+  author={Fang, Chaowei and Liao, Zicheng and Yu, Yizhou},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2018},
+  publisher={IEEE}
+}
+
 Enjoy!
