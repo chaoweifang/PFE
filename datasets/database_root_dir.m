@@ -19,15 +19,15 @@
 % ------------------------------------------------------------------------
 function db_root_dir = database_root_dir( database )
 if strcmp(database,'VOCContext')
-    db_root_dir = '/home2/cwfang/VOCdevkit/VOC2010/';
+    db_root_dir = '~/VOCdevkit/VOC2010/';
 elseif strcmp(database,'SeBD')
-    db_root_dir = '/home2/cwfang/SeBD/dataset/';
+    db_root_dir = '~/SeBD/dataset/';
 elseif strcmp(database,'BSDS500')
-    db_root_dir = '/home/cwfang/Project/Data/BSDS500/data';
+    db_root_dir = '~/BSDS500/data';
 elseif strcmp(database, 'SBD')
-    db_root_dir = '/home2/cwfang/SBD';
+    db_root_dir = '~/SBD';
 elseif strcmp(database, 'MSRC')
-    db_root_dir = '/home2/cwfang/MSRC';
+    db_root_dir = '~/MSRC';
 else
     error(['Unknown database: ' database]);
 end

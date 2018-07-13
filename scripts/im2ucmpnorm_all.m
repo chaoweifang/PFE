@@ -1,8 +1,8 @@
 
 %I = imread('~/MATLAB/BSDS500/data/images/test/100007.jpg');
-function im2ucmpnorm_all(database, gt_set,res_dir,version,param_s,param_ucm,param_ini)
+function im2ucmpnorm_all(database, gt_set,res_dir,param_s,param_ucm,param_ini)
 
-resucm_dir = fullfile(res_dir, 'ucm', version);
+resucm_dir = fullfile(res_dir, 'ucm');
 if ~exist(resucm_dir,'dir')
     mkdir(resucm_dir);
 end

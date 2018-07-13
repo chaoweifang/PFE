@@ -7,7 +7,7 @@ clear clc
 
 database='VOCContext';
 gt_set='test';
-res_root = '/home2/cwfang/Results/';
+res_root = '~/Results/';
 res_dir=fullfile(res_root,database,'DB-UCM');
 paras =struct('thr',0.5,'fq',8);
 

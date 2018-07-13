@@ -13,7 +13,6 @@ clear;clc;
 database='BSDS500';
 gt_set='test';
 
-res_root = '/home/cwfang/Results/';
+res_root = '~/Results/';
 res_dir=fullfile(res_root,database,['DB' param_ini.flag  param_s.wtype 'PFEp' num2str(param_s.p) '_' param_s.version]);
-version = ['re_multi_fq' num2str(param_ucm.fq) '_thr' num2str(param_ucm.thr) '_satsPb' num2str(param_s.sat_sPb) '_or' num2str(param_s.or2)];
-im2ucmpnorm_all(database, gt_set,res_dir,version,param_s,param_ucm,param_ini);
+im2ucmpnorm_all(database, gt_set,res_dir,param_s,param_ucm,param_ini);
