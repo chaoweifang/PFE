@@ -29,7 +29,7 @@ Contour driven segmentations of methods integrating swPFE0.8 precomputed on [Sta
 
 ### Citation
 
-If you use this code, please citing the following papers:
+If you use this code, please cite the following papers:
 
 @inproceedings{yu2015piecewise,title={Piecewise flat embedding for image segmentation},
   author={Yu, Yizhou and Fang, Chaowei and Liao, Zicheng},
