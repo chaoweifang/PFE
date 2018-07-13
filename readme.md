@@ -1,12 +1,12 @@
 # Piecewise Flat Embedding for Image Segmentation
 
 
-![](https://ws4.sinaimg.cn/large/006tNc79gy1fn3p0c3wd6j31hw0iadro.jpg)
+![](https://ws1.sinaimg.cn/large/006tKfTcgy1ft863zod90j30k00653zz.jpg)
 
 Piecewise Flat Embedding (PFE) is a new nonlinear embedding for image segmentation. Based on the theory of sparse signal recovery, piecewise flat embedding attempts to recover a piecewise constant image representation with sparse region boundaries and sparse cluster value scattering. The resultant piecewise flat embedding exhibits interesting properties such as suppressing slowly varying signals, and offers an image representation with higher region identifiability which is desirable for image segmentation or high-level semantic analysis tasks.
 
 Some examples of embedding results:
-![](https://ws3.sinaimg.cn/large/006tNc79gy1fn3p73b8cfj30s50f9tl2.jpg)
+![](https://ws1.sinaimg.cn/large/006tKfTcgy1ft863y2o12j30k00i2gyl.jpg)
 
 ### Prerequisites
 
