@@ -45,5 +45,5 @@ If you use this code, please citing the following papers:
   year={2018},
   publisher={IEEE}
 }
-Enjoy!
 
+Enjoy!
